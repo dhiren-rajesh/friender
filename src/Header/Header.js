@@ -13,7 +13,7 @@ export default function Header() {
                 <PersonIcon style={styles} className="header-icon"/>
             </IconButton>
             <IconButton>
-                <GroupWorkIcon style={{color: "#E63E6D", fontSize: "2.5rem"}}/>
+                <GroupWorkIcon className="header-icon" style={{color: "#E63E6D", fontSize: "2.5rem"}}/>
             </IconButton>
             <IconButton>
                 <ForumIcon style={styles} className="header-icon"/>
